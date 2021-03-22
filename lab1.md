@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=NLIUsWLEpmg
 4. เลือกโปรแกรมคำสั่ง **cd 01_Serial-Moniter**
 5. พิมพ์คำสั่ง vi src/main.cpp เพื่อรันโปรแกรม จะได้  
 #include <Arduino.h>
-
+```
 int cnt = 0;
 
 void setup()
@@ -35,8 +35,10 @@ void loop()
 	Serial.printf("PATTANI :%d\n",cnt);
 	delay(1000);
 }
+```
 6. พิมคำสั่ง vi platformip.ini จะได้ 
-```; IOT for KIDS
+```
+; IOT for KIDS
 ;
 ; By Dr.Choompol Boonmee
 ; 
@@ -50,6 +52,7 @@ upload_port = /dev/cu.usbserial-1420
 monitor_port = /dev/cu.usbserial-1420
 ;monitor_port = COM3
 monitor_speed = 115200
+```
 7. ใช้คำสั่ง **pio run -t upload** เพื่ออัพโหลดโปรแกรมลงในไมโครคอนโทรนเลอร์ พร้อมทั้งกดปุ่มสีดำบนไมโครคอนโทรเลอร์ค้างไว้เพื่อให้ดาวโหลด และกดปุ่มรีเซ็๖สีแดงอีกครั้งเพื่อรีเซ็ทคำสั่งเก่า
 8. ใช้คำสั่ง**pio device monitor** เพื่อดูผลลัพธ์
 
