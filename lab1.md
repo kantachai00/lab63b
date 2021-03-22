@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=NLIUsWLEpmg
 1. ต่อไมโครคอนโทรลเลอร์กับซีเรียลพอร์ท
 2. เปิด command prompt ไปที่ไดรฟ์ D โดยใช้คำสั่ง **D:**
 3. เข้าโปรแกรมตัวอย่างโดยใช้คำสั่ง **cd pattani**
-4. รันโปรแกรมคำสั่ง **cd 01_Serial-Moniter**
+4. เลือกโปรแกรมคำสั่ง **cd 01_Serial-Moniter**
 5. พิมพ์คำสั่ง vi src/main.cpp เพื่อรันโปรแกรม จะได้  
 ```
 #include <Arduino.h>
