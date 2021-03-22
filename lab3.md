@@ -16,7 +16,7 @@
 ## ศึกษาข้อมูลเบื้องต้น
 https://www.youtube.com/watch?v=CCnN1WJsXQY
 
-## วิธีการทำทดลอง
+## วิธีการทดลอง
 1. นำ Adapter มาต่อเข้ากับ USB to serial
 2. ต่อไมโครลคอนโทรลเลอร์และพอร์ทเข้าด้วยกัน
 3. เปิด command prompt
