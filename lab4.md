@@ -14,7 +14,7 @@
 7. คอมพิวเตอร์
 
 ## ศึกษาข้อมูลเบื้องต้น
-https://youtu.be/nFqoZT26U5k
+[04 run example 4](https://youtu.be/nFqoZT26U5k)
 
 ## วิธีการทดลอง
 1. เชื่อมต่อ Adapter และ USB to serial เข้าด้วยกัน
