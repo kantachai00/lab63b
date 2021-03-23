@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=NLIUsWLEpmg
 3. เข้าโปรแกรมตัวอย่างโดยใช้คำสั่ง **cd pattani**
 4. เลือกโปรแกรมคำสั่ง **cd 01_Serial-Moniter**
 5. พิมพ์คำสั่ง vi src/main.cpp เพื่อดูโค้ดโปรแกรม   
-```
+```c
 #include <Arduino.h>
 
 int cnt = 0;
