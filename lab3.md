@@ -15,7 +15,7 @@
 8. คอมพิวเตอร์
 
 ## ศึกษาข้อมูลเบื้องต้น
-https://www.youtube.com/watch?v=CCnN1WJsXQY
+[03 run example 3](https://www.youtube.com/watch?v=CCnN1WJsXQY)
 
 ## วิธีการทดลอง
 1. นำ Adapter มาต่อเข้ากับ USB to serial
