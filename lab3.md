@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=CCnN1WJsXQY
 4. เข้าโปรแกรมตัวอย่างโดยใช้คำสั่ง **cd pattani**
 5. เลือกโปรแกรมคำสั่ง **cd 03_Output-Port** 
 6. พิมพ์คำสั่ง vi src/main.cpp เพื่อดูโค้ดโปรแกรม
-```
+```c
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 
