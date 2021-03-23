@@ -11,7 +11,7 @@
 4. คอมพิวเตอร์
 
 ## ศึกษาข้อมูลเบื้องต้น
-* [02 run example 2](https://youtu.be/yBjab0UNuB8)
+[02 run example 2](https://youtu.be/yBjab0UNuB8)
 
 ## วิธีการทดลอง
 1. ต่อไมโครคอนโทรลเลอร์กับซีเรียลพอร์ท
