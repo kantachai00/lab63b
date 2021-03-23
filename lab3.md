@@ -12,6 +12,7 @@
 5. Adapter
 6. Relay
 7. ขั้วชาร์ต
+8. คอมพิวเตอร์
 
 ## ศึกษาข้อมูลเบื้องต้น
 https://www.youtube.com/watch?v=CCnN1WJsXQY
