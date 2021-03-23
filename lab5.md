@@ -10,7 +10,7 @@
 4. คอมพิวเตอร์
 
 ## ศึกษาข้อมูลเบื้องต้น
-https://youtu.be/VX-QNQcO-b4
+[05 run wifi](https://youtu.be/VX-QNQcO-b4 "05 run wifi")
 
 ## วิธีการทดลอง
 1. เปิด command prompt
