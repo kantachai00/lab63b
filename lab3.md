@@ -18,7 +18,7 @@
 [03 run example 3](https://www.youtube.com/watch?v=CCnN1WJsXQY)
 
 ## วิธีการทดลอง
-1. นำ Adapter มาต่อเข้ากับ USB to serial
+1. นำ Adapter มาต่อเข้ากับ USB to serial (พอร์ต 0 สีขาว พอร์ต 1 สีเหลือง)
 2. ต่อไมโครลคอนโทรลเลอร์และพอร์ทเข้าด้วยกัน
 3. เปิด command prompt
 4. เข้าโปรแกรมตัวอย่างโดยใช้คำสั่ง **cd pattani**
