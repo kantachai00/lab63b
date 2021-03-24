@@ -68,7 +68,7 @@ void loop(void){
 
 <img width="743" alt="image" src="https://user-images.githubusercontent.com/80879585/112261869-331a9180-8c9f-11eb-8a42-03d81bf797df.png">
 
-10. ลองค้นหาเชื่อมต่อ wifi ที่สร้างมา
+10. ลองค้นหาและเชื่อมต่อ wifi ที่สร้างมา
 
 <img width="239" alt="image" src="https://user-images.githubusercontent.com/80879585/112262011-7f65d180-8c9f-11eb-897e-57fbbe98dc42.png">
 
