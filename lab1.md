@@ -8,7 +8,8 @@
 
 1. ไมโครคอนโทรลเลอร์(ESP-01)
 2. สาย USB
-3. คอมพิวเตอร์
+3. USB to serial
+4. คอมพิวเตอร์
 
 ## ศึกษาข้อมูลเบื้องต้น
 [01 run example 1](https://youtu.be/NLIUsWLEpmg )
