@@ -15,4 +15,62 @@
 2. [เซนเซอร์ IR Infrared](https://www.myarduino.net/article/100/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-arduino-%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%96%E0%B8%B8-ir-infrared)
 
 ## วิธีการทดลอง
+1. เชื่อมต่อ Adapter และ USB to serial เข้าด้วยกัน
+2. ต่อไมโครคอนโทรลเลอร์หเข้ากับซีเรียลพอร์ท
+3. เปิด command prompt ไปที่ไดรฟ์ D โดยใช้คำสั่ง D:
+4. เข้าโปรแกรมตัวอย่างโดยใช้คำสั่ง cd pattani
+5. เลือกโปรแกรมคำสั่ง cd 07_IR Infrared
+6. พิมพ์คำสั่ง vi src/main.cpp เพื่อดูโค้ดโปรแกรม
+```c
+int WhitePin = 0; // กำหนด WhitePin ที่พอร์ท 0
+int YellowPin = 2; // กำหนด YellowPin ที่พอร์ท 2
+int val = 0;
+
+void setup() 
+{
+  pinMode(WhitePin,INPUT);  // กำหนด WhitePin คือ input
+  pinMode(YellowPin, OUTPUT); // กำหนด YellowPin คือ output
+  Serial.begin(9600);
+}
+
+volid loop()
+{
+if(state == 0) // หลอดไฟติด
+{
+  int val = +1;
+  if(int val > 500)
+  {
+    int val = 500;
+  }
+  delay(1000)
+}
+if (WhitePin == 0) // ค่า เป็น 0  ตรวจจับเจอวัตถุ สั่งให้ไฟ LED ติด
+{
+  digitalWrite(ledPin, HIGH); // สั่งให้ LED ติด
+ }
+ else // ไม่เจอวัตถุ
+ {
+  digitalWrite(YellowPin, LOW); // สั่งให้ LED ดับ
+  }
+  delay(1000);
+ }
+ else // เจอวัตถุเคลื่อนที่
+ {
+  int val = -1;
+  if(int val < 0)
+  {
+    int val = 0; 
+    state = 1 ;
+  }
+  delay(1000);
+}
+```
+7. ใช้คำสั่ง pio run -t upload เพื่ออัพโหลดโปรแกรมลงในไมโครคอนโทรนเลอร์
+8. กดปุ่มสีดำพร้อมทั้งกดปุ่ม reset สีแดงบนไมโครคอนโทรลเลอร์ เพื่อให้โปรแกรมอัพโหลดลงบนไมโครคอนโทรลเลอร์
+9. ต่อเซนเซอร์ IR Infrared กับไมโครคอนโทรลเลอร์
+10. ทดสอบนำวัตถุมาวางหน้าเซนเซอร์ สังเกตผลลัพธ์และบันทึกผลการทดลอง
+
+## การบันทึกผลการทดลอง
+
+
 
